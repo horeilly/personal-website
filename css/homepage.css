@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "OJ";
+    src: url("../fonts/orange_juice.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: "Gravity";
+	src: url("../fonts/Gravity-Book.otf") format("opentype");
+}
+
+body {
+	background-color: #646464;
+	font-family: "Gravity";
+    font-size: 14pt;
+    margin-left: 2in;
+    margin-right: 2in;   
+}
+
+div.space {
+	height: 1in;
+}
+
+#title {
+	text-align: left;
+	font-family: "OJ";
+	font-size: 50pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+div.nav {
+	justify-content: flex-end;
+}
+
+div.nav a {
+	color: #000000;
+	margin: 0 15px 15px 15px;
+}
+
+hr.sep {
+	border: 0;
+	height: 1px;
+	width: 100%;
+	background: -webkit-linear-gradient(left, #C9C9C9, #FFFFFF, #C9C9C9);
+}
+
+#selfie {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#tagline {
+	text-align: center;
+}
+
+#footer {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+.icon-email {
+	background-image: url("../img/email_icon.png");
+	background-size: 40px 40px;
+}
+
+.icon-linkedin {
+	background-image: url("../img/linkedin_icon.png");
+	background-size: 40px 40px;
+}
+
+.icon-github {
+	background-image: url("../img/github_icon.svg");
+	background-size: 40px 40px;
+}
+
